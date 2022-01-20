@@ -1,0 +1,76 @@
+select {
+    width: 250px;
+    height: 40px;
+}
+
+.chat ul {
+    height: 600px;
+    overflow-x: auto;
+}
+
+.chat ul li{
+    list-style: none;
+    display: flex;
+    justify-content: start;
+    border: 1px solid;
+    align-items: center;
+    margin: 20px;
+}
+
+.chat ul li img {
+    width: 60px;
+    height: 60px;
+    border-radius: 35px;
+}
+
+.textContent{
+    margin-left: 20px;
+    display: flex;
+    width: 77%;
+}
+
+.textContent textarea{
+    width: 100%;
+}
+
+.nameContent{
+    display: flex;
+    flex-direction: column;
+    width: 304px;
+}
+
+.addComent {
+    margin-left: 102px;
+    display: flex;
+}
+
+.addComent textarea{
+    width: 402px;
+}
+
+.addComent button {
+    background: #22b9ea;
+    border: navajowhite;
+    color: #fff;
+    height: 41px;
+    margin-left: 6px;
+    border-radius: 7px;
+}
+
+.edit-comment.edit-comment-byuser{
+    display:block;
+}
+
+.edit-comment{
+    display: none;
+}
+
+.edit-comment button{
+    background: #22b9ea;
+    border: none;
+    color: #fff;
+    height: 41px;
+    margin-left: 6px;
+    border-radius: 7px;
+} 
+
